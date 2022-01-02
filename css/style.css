@@ -133,6 +133,7 @@ section .container{
     font-size: 1.6rem;
     color: var(--Violet);
     transition: 0.3s;
+    cursor: pointer;
 }
 .text button:hover{
     background: var(--Soft-Magenta);
@@ -155,6 +156,7 @@ article ul li{
     
     
     margin-left: 1rem;
+    cursor: pointer;
     
 }
 article ul li:hover i{
