@@ -140,13 +140,13 @@ section .container{
     color: white;
 }
 
-section ul{
+.two ul{
     display: flex;
     justify-content: flex-end;
 
 }
 @media (max-width:767px){
-    section ul{
+    .two ul{
     justify-content:center;
     margin-top:4rem
     }
