@@ -140,31 +140,34 @@ section .container{
     color: white;
 }
 
-article ul{
+section ul{
     display: flex;
     justify-content: flex-end;
 
 }
 @media (max-width:767px){
-    article ul{
+    section ul{
     justify-content:center;
     margin-top:4rem
     }
 
 }
-article ul li{
+.two .container{
+    justify-content: flex-end;
+}
+.two ul li{
     
     
     margin-left: 1rem;
     cursor: pointer;
     
 }
-article ul li:hover i{
+.two ul li:hover i{
     color: var(--Soft-Magenta);
     border: .1rem solid var(--Soft-Magenta);
 }
 
-article i{
+.two i{
     font-size: 1.6rem;
     padding: 1rem;
     border: .1rem solid white;
